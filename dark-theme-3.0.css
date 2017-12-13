@@ -870,7 +870,7 @@ ts-message.show_recap:not(.is_pinned) { background: rgba(0, 0, 0, 0.15); }
 
 ts-message.show_recap:not(.is_pinned):hover { background: rgba(0, 0, 0, 0.15); }
 
-ts-message .rxn { background-color: #bbbbbb; }
+ts-message .rxn, ts-message .rxn.user_reacted { background-color: #bbbbbb; }
 
 .ephemeral.message .message_content { color: #e6e6e6; }
 
@@ -2152,7 +2152,7 @@ input[type="text"].p-emoji_picker__input:focus { border-color: #545454; box-shad
 
 .rxn.active .emoji_rxn_count, .rxn:hover .emoji_rxn_count { color: #000; }
 
-.rxn.user_reacted { background-color: rgba(66, 66, 66, 0.08); border-color: rgba(130, 130, 130, 0.4) !important; }
+.rxn.user_reacted { border-color: #7ab8e8 !important; }
 
 .rxn.user_reacted .emoji_rxn_count { color: #000; }
 
