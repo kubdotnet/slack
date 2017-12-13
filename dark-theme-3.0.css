@@ -104,7 +104,7 @@ h1 a:active, h1 a:hover, h1 a:link, h1 a:visited { color: #e6e6e6; }
 
 .channels_list_holder ul li .primary_action.im_name:hover .im_name_background, .channels_list_holder ul li .primary_action.feature_user_custom_status:hover .im_name_background, .channels_list_holder ul li .primary_action:not(.feature_user_custom_status):hover { background: #222; }
 
-.channels_list_holder ul li.mention a { color: #e6e6e6; background: #222 !important; }
+.channels_list_holder ul li.mention a { color: #e6e6e6; }
 
 .channels_list_holder ul li.unread:not(.muted_channel) .primary_action { color: whitesmoke !important; }
 
@@ -860,7 +860,7 @@ ts-message .meta.msg_inline_img_toggler .msg_inline_media_toggler, ts-message .m
 
 ts-message .pinned_item_message_header { color: #949494; }
 
-ts-message .mention { border: 1px solid #3987d6 !important; background: #222 !important; font-weight: bold; padding: 2px 4px; margin: 2px; border-radius: 10px; }
+ts-message .mention, ts-message .mention:hover  { border: 1px solid #3987d6 !important; background: #222 !important; font-weight: bold; padding: 4px 10px; margin: 2px; border-radius: 10px; }
 
 ts-message .internal_member_link { background: #222 !important; border: 0; color: #949494 !important; }
 
