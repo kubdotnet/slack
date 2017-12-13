@@ -860,7 +860,7 @@ ts-message .meta.msg_inline_img_toggler .msg_inline_media_toggler, ts-message .m
 
 ts-message .pinned_item_message_header { color: #949494; }
 
-ts-message .mention { border: 1px solid #3987d6 !important; font-weight: bold; padding: 2px 4px; margin: 2px; border-radius: 10px; }
+ts-message .mention { border: 1px solid #3987d6 !important; background: #222; font-weight: bold; padding: 2px 4px; margin: 2px; border-radius: 10px; }
 
 ts-message .internal_member_link { background: #222 !important; border: 0; color: #949494 !important; }
 
