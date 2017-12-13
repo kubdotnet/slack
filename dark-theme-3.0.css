@@ -1038,6 +1038,8 @@ ts-mention { background: rgba(130, 130, 130, 0.1) !important; color: #e6e6e6 !im
 
 .file_container.generic_container .file_header_icon .ts_icon { background: #222; box-shadow: 0 0 0 3px #222; color: #e6e6e6; }
 
+.file_container.generic_container .file_header_icon .ts_icon:before { top: 9px; position: absolute; }
+
 .file_container.generic_container .file_header_icon .ts_icon.snippet { background: #363636; }
 
 .file_container.generic_container .file_header_meta .meta_hover { background: #000; color: #e6e6e6; }
