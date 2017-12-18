@@ -691,6 +691,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 .message_body a, .message_body a:hover { text-decoration: none !important; }
 .message_body a { border-bottom: 1px dotted #3987d6; }
 .message_body a:hover { border-bottom-style: solid; }
+.message_body .emoji-sizer { width: 32px; height: 32px; }
 
 .channel_title .channel_name_container .channel_name { color: #e6e6e6; }
 
