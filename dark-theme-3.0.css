@@ -688,6 +688,10 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .messages_header { color: #e6e6e6; }
 
+.message-body a, .message-body a:hover { text-decoration: none; }
+.message-body a { border-bottom: 1px dotted #3987d6; }
+.message-body a:hover { border-bottom-style: solid; }
+
 .channel_title .channel_name_container .channel_name { color: #e6e6e6; }
 
 .channel_title .channel_name_container .channel_name.muted { color: #949494; }
@@ -2110,9 +2114,9 @@ span.match { background: rgba(191, 54, 12, 0.25); }
 
 .p-emoji_picker__group_tab { color: #949494; }
 
-.p-emoji_picker__group_tab:hover { background: #363636; color: #c7c7c7; }
+.p-emoji_picker__group_tab:hover { background: #000; color: #c7c7c7; }
 
-.p-emoji_picker__group_tab--active { background: #545454; border-bottom-color: #424242; color: #e6e6e6; }
+.p-emoji_picker__group_tab--active { background: #000; border-bottom-color: #4b8ad3; color: #e6e6e6; }
 
 .p-emoji_picker__icon_search { color: #949494; }
 
