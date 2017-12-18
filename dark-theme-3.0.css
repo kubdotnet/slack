@@ -688,7 +688,7 @@ input[disabled], input[readonly], textarea[disabled], textarea[readonly] { backg
 
 .messages_header { color: #e6e6e6; }
 
-.message_body a, .message_body a:hover { text-decoration: none; }
+.message_body a, .message_body a:hover { text-decoration: none !important; }
 .message_body a { border-bottom: 1px dotted #3987d6; }
 .message_body a:hover { border-bottom-style: solid; }
 
