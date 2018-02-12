@@ -3782,7 +3782,7 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 .c-message__bot_label { padding: 2px 5px !important; border-radius: 4px; color: #555555 !important; }
 .c-message_attachment__border { background-color: #666666 !important; }
 .c-message_attachment__button { line-height: 1em !important; padding: 7px 10px !important; }
-c-message_attachment__row { color: #e6e6e6 !important; }
+.c-message_attachment__row { color: #e6e6e6 !important; }
 
 ts-message .mention, ts-message .mention:hover, .c-mrkdwn__member--link, .c-mrkdwn__subteam--link, .c-mrkdwn__broadcast.c-mrkdwn__broadcast--link.c-mrkdwn__broadcast--mention { border: 1px dotted #3987d6 !important; background: #222 !important; padding: 4px 10px; margin: 2px; border-radius: 10px; color: #3987d6 !important; }
 ts-message .mention:hover, ts-message .mention:hover, .c-mrkdwn__member--link:hover, .c-mrkdwn__subteam--link:hover, .c-mrkdwn__broadcast.c-mrkdwn__broadcast--link.c-mrkdwn__broadcast--mention:hover { border: 1px solid #3987d6 !important; }
