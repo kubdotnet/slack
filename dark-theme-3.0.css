@@ -3772,7 +3772,7 @@ comments { box-shadow: inset 1px 0 0 rgba(0, 0, 0, 0.25); }
 .c-message_list__day_divider__line { border-top: 1px solid #3d3d3d !important; }
 .c-message_list__day_divider__label__pill { background-color: #222 !important; color: #bcbcbc !important; border: 1px solid #3d3d3d; }
 .c-message--ephemeral { background: transparent !important; }
-.c-scrollbar__hider { border-bottom: 1px solid #3d3d3d !important; background: #222; !important; }
+.c-scrollbar__hider { border-bottom: 1px solid #3d3d3d !important; background: #222222; !important; }
 .c-message__sender { color: #fefefe; }
 
 .message_body a, .message_body a:hover, .message_body:visited, .c-message__body a, .c-message__body a:hover, .c-message__body a:visited { color: #3987d6 !important; text-decoration: none !important; }
